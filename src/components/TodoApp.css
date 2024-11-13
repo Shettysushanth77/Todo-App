@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 5px solid black;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101114;
+    padding-top: 100px;
+    
+}
+.title{
+    font-size: 64px;
+    font-weight: 700px;
+    color: #00ffc4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container1{
+    padding-top: 15px;
+    /* border: 5px solid rgba(0, 0, 0, 0.245); */
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #10111415;
+    /* overflow: scroll; */
+}
+.topsec{
+    /* border: 5px solid red; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 65px;
+}
+.addbtn{
+    padding: 10px;
+    font-size: 22px;
+    background-color:#00ffc4;
+    border-radius: 8px;
+    width: 120px;
+}
+input{
+    
+    padding: 13px;
+    font-size: 22px;
+    width: 420px;
+    color: #f9f9f9;
+    background-color: #1c1d20;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+.itemslist{
+    /* border: 5px solid rebeccapurple; */
+    height: 80%;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.contents{
+    /* border: 5px solid pink; */
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contents ol{
+    display: flex;
+    height: inherit;
+    width: 100%;
+}
+.contents ol li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #fff;
+}
+.list{
+    /* border: 5px solid palegreen; */
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #1c1d20;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+.listbtn{
+    /* border: 5px solid rebeccapurple; */
+    height: 50px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.delbtn{
+    padding: 10px;
+    font-size: 22px;
+    background-color: #00ffc4;
+    border-radius: 8px;
+    width: 120px;
+}
